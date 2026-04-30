@@ -1,24 +1,83 @@
-# Solar Eclipses
+# **Solar Eclipses Data Analysi**s
 
-What is the average duration of total darkness during a total solar eclipse? When did the longest solar eclipse occur?
+<p align="center">
+  <img src="./img/Logo-Janmadac.png" width="250">
+</p>
 
-The file `solar-eclipses.csv` provides information on all solar eclipses from 1901 to 2100, leveraging the ability of scientists to accurately predict the timing and location of future eclipses.
+## Project Overview
 
-A solar eclipse happens when the Moon moves between the Earth and the Sun, blocking the Sun's light either partially or completely. There are three primary types of solar eclipses:
+This project analyzes historical and future solar eclipse data to explore patterns, durations, and astronomical characteristics of solar eclipses between **1901 and 2100**.
 
-1. Total Solar Eclipse: The Moon fully covers the Sun, casting a shadow on Earth and revealing the Sun's corona.
+This is my **first Data Science project** as a Junior Data Scientist, focused on practicing data analysis, data cleaning, and exploratory analysis using real scientific data.
 
-2. Partial Solar Eclipse: The Moon obscures only part of the Sun, creating a crescent-shaped appearance.
+---
 
-3. Annular Solar Eclipse: The Moon covers the center of the Sun, leaving a ring-like appearance, known as a "ring of fire," around the edges. This occurs when the Moon is too far from Earth to completely cover the Sun.
+## Objective
 
-The `duration` variable indicates the length of time that the entire moon covers the sun.
+The main goals of this project are:
 
+- Analyze solar eclipse duration patterns.
+- Identify the longest solar eclipses recorded.
+- Calculate the average duration of total darkness.
+- Practice real-world data science workflow.
 
+---
 
-### Data Source:
+## Research Questions
 
-Solar Eclipses: Past and Future. NASA.
+- What is the average duration of total darkness during a total solar eclipse?
+- When did the longest solar eclipse occur?
+- Are there observable trends over time?
 
+---
+
+## Dataset
+
+The dataset `solar-eclipses.csv` contains information about solar eclipses from **1901 to 2100**, based on NASA astronomical predictions.
+
+### Eclipse Types
+
+A solar eclipse occurs when the Moon moves between the Earth and the Sun.
+
+- **Total Solar Eclipse** — The Moon completely covers the Sun.
+- **Partial Solar Eclipse** — Only part of the Sun is covered.
+- **Annular Solar Eclipse** — A ring of sunlight remains visible.
+
+The variable `duration` represents the time during which the Moon fully covers the Sun.
+
+---
+
+## Data Source
+
+Solar Eclipses: Past and Future — NASA  
 https://eclipse.gsfc.nasa.gov/solar.html
 
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+---
+
+## Project Workflow
+
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Statistical Analysis
+5. Visualization of Results
+
+---
+
+## Autor
+
+Angel Andrés Vazquez Arce 
+
+Software Engineer
+
+## Repository Structure
