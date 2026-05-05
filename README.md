@@ -1,7 +1,7 @@
 <div align="center">
-  <h1 align="center">Solar Eclipses Data Analysis<h1/>
+  <h1 align="center">Solar Eclipses Data Analysis</h1>
   <img src="./img/Logo-Janmadac.png" width="250">
-<div/>
+</div>
 
 ## Project Overview
 
